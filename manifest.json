@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Color Changer",
+  "version": "1.1",
+  "description": "Pick a color and apply it as the background.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "commands": {
+    "change_color": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y"
+      },
+      "description": "Change the background color"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
