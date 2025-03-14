@@ -3,7 +3,7 @@ A simple Chrome extension that allows users to change the background color of an
 
 **Features**
 Change Background Color: The extension allows users to change the background color of any webpage.
-Customizable Background Color: You can set the background color to any color you like by clicking the extension icon.
+Customizable Background Color: You can set the background color to any color you like by clicking the extension icon storing the selected color using Chrome Storage API.
 
 
 **Installation**
